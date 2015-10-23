@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		5B37F9E21BD96B6E00F084A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37F9E11BD96B6E00F084A6 /* main.m */; };
 		5B37F9E51BD96B6E00F084A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37F9E41BD96B6E00F084A6 /* AppDelegate.m */; };
-		5B37F9E81BD96B6E00F084A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37F9E71BD96B6E00F084A6 /* ViewController.m */; };
 		5B37F9EB1BD96B6E00F084A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B37F9E91BD96B6E00F084A6 /* Main.storyboard */; };
 		5B37F9ED1BD96B6E00F084A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B37F9EC1BD96B6E00F084A6 /* Assets.xcassets */; };
 		5B37F9F01BD96B6E00F084A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B37F9EE1BD96B6E00F084A6 /* LaunchScreen.storyboard */; };
 		5B37F9FB1BD96B6E00F084A6 /* Blog_ReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37F9FA1BD96B6E00F084A6 /* Blog_ReaderTests.m */; };
 		5B37FA061BD96B6E00F084A6 /* Blog_ReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37FA051BD96B6E00F084A6 /* Blog_ReaderUITests.m */; };
+		5B37FA151BD96DCA00F084A6 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B37FA141BD96DCA00F084A6 /* TableViewController.m */; };
+		5BE8BE831BD9AC4A001031FD /* BlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE8BE821BD9AC4A001031FD /* BlogPost.m */; };
+		5BE8BEC51BDA9A94001031FD /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE8BEC41BDA9A94001031FD /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		5B37F9E11BD96B6E00F084A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B37F9E31BD96B6E00F084A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B37F9E41BD96B6E00F084A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5B37F9E61BD96B6E00F084A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5B37F9E71BD96B6E00F084A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B37F9EA1BD96B6E00F084A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B37F9EC1BD96B6E00F084A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B37F9EF1BD96B6E00F084A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,12 @@
 		5B37FA011BD96B6E00F084A6 /* Blog ReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blog ReaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B37FA051BD96B6E00F084A6 /* Blog_ReaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Blog_ReaderUITests.m; sourceTree = "<group>"; };
 		5B37FA071BD96B6E00F084A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B37FA131BD96DCA00F084A6 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		5B37FA141BD96DCA00F084A6 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		5BE8BE811BD9AC4A001031FD /* BlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogPost.h; sourceTree = "<group>"; };
+		5BE8BE821BD9AC4A001031FD /* BlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogPost.m; sourceTree = "<group>"; };
+		5BE8BEC31BDA9A94001031FD /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		5BE8BEC41BDA9A94001031FD /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +109,12 @@
 			children = (
 				5B37F9E31BD96B6E00F084A6 /* AppDelegate.h */,
 				5B37F9E41BD96B6E00F084A6 /* AppDelegate.m */,
-				5B37F9E61BD96B6E00F084A6 /* ViewController.h */,
-				5B37F9E71BD96B6E00F084A6 /* ViewController.m */,
+				5BE8BEC31BDA9A94001031FD /* WebViewController.h */,
+				5BE8BEC41BDA9A94001031FD /* WebViewController.m */,
+				5B37FA131BD96DCA00F084A6 /* TableViewController.h */,
+				5B37FA141BD96DCA00F084A6 /* TableViewController.m */,
+				5BE8BE811BD9AC4A001031FD /* BlogPost.h */,
+				5BE8BE821BD9AC4A001031FD /* BlogPost.m */,
 				5B37F9E91BD96B6E00F084A6 /* Main.storyboard */,
 				5B37F9EC1BD96B6E00F084A6 /* Assets.xcassets */,
 				5B37F9EE1BD96B6E00F084A6 /* LaunchScreen.storyboard */,
@@ -270,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B37F9E81BD96B6E00F084A6 /* ViewController.m in Sources */,
 				5B37F9E51BD96B6E00F084A6 /* AppDelegate.m in Sources */,
+				5BE8BEC51BDA9A94001031FD /* WebViewController.m in Sources */,
 				5B37F9E21BD96B6E00F084A6 /* main.m in Sources */,
+				5B37FA151BD96DCA00F084A6 /* TableViewController.m in Sources */,
+				5BE8BE831BD9AC4A001031FD /* BlogPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +508,7 @@
 				5B37FA0C1BD96B6E00F084A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B37FA0D1BD96B6E00F084A6 /* Build configuration list for PBXNativeTarget "Blog ReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				5B37FA0F1BD96B6E00F084A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B37FA101BD96B6E00F084A6 /* Build configuration list for PBXNativeTarget "Blog ReaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				5B37FA121BD96B6E00F084A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
